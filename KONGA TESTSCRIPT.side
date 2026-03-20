@@ -22,7 +22,7 @@
       "value": ""
     }, {
       "id": "9a491159-d6ff-40d9-b61f-11797619f441",
-      "comment": "TO LOGIN",
+      "comment": "NAVIGATE TO LOGIN/SIGNUP",
       "command": "click",
       "target": "linkText=Login / Signup",
       "targets": [
@@ -94,21 +94,21 @@
       "value": ""
     }, {
       "id": "103ecd57-0ec4-4785-ab2e-2d4ffff57dbd",
-      "comment": "",
+      "comment": "HOVER ON APPLE MACBOOK",
       "command": "pause",
       "target": "3000",
       "targets": [],
       "value": ""
     }, {
       "id": "3cf6dd5c-42e2-4895-875a-c857483f9ce5",
-      "comment": "",
+      "comment": "SELECT APPLE MACBOOK",
       "command": "verifyElementPresent",
       "target": "linkText=Macbooks",
       "targets": [],
       "value": ""
     }, {
       "id": "a1e6e74e-5e23-47f3-86eb-9df9a243eff5",
-      "comment": "",
+      "comment": "DOUBLE CLICK ",
       "command": "click",
       "target": "linkText=Macbooks",
       "targets": [
@@ -123,7 +123,7 @@
       "value": ""
     }, {
       "id": "237d6b82-9688-437e-bc89-7934dc20fa1b",
-      "comment": "",
+      "comment": "SELECT PREFERRED LAPTOP",
       "command": "mouseOver",
       "target": "css=.List_listItem__KlvU2:nth-child(2) .asset_imageCover__ttp_S",
       "targets": [
@@ -135,14 +135,14 @@
       "value": ""
     }, {
       "id": "df1bd90a-cba3-4c8c-b19e-3eddcf6d8593",
-      "comment": "",
+      "comment": "ADD TO CART",
       "command": "runScript",
       "target": "window.scrollTo(0,0)",
       "targets": [],
       "value": ""
     }, {
       "id": "384bba6b-6f8e-40bc-a3f5-2843a7b93ed6",
-      "comment": "",
+      "comment": "OPEN MY CART",
       "command": "click",
       "target": "css=.List_listItem__KlvU2:nth-child(1) .button_button__cpnXl",
       "targets": [
@@ -155,7 +155,7 @@
       "value": ""
     }, {
       "id": "91705414-ae2d-46a7-82ef-47f559898b92",
-      "comment": "",
+      "comment": "CLICK CHECKOUT",
       "command": "mouseOver",
       "target": "css=.List_listItem__KlvU2:nth-child(1) .button_button__cpnXl",
       "targets": [
@@ -168,7 +168,7 @@
       "value": ""
     }, {
       "id": "8a4c8a84-5f56-4d1b-946d-c7d1cb30f67e",
-      "comment": "",
+      "comment": "REDIRECTED TO CHECKOUT",
       "command": "mouseOut",
       "target": "css=.button_loading__bD19o > .button_button__cpnXl",
       "targets": [
@@ -180,7 +180,7 @@
       "value": ""
     }, {
       "id": "426b67de-c400-4129-9bb8-6d71a85fcc48",
-      "comment": "",
+      "comment": "CHOOSE DELIVERY OPTION",
       "command": "click",
       "target": "css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)",
       "targets": [
@@ -192,7 +192,7 @@
       "value": ""
     }, {
       "id": "448751c4-3f0a-4318-8383-3429e7749ea1",
-      "comment": "",
+      "comment": "SELECT CHANGE",
       "command": "mouseDown",
       "target": "css=.button_success__sLUz_ > .button_button__cpnXl",
       "targets": [
@@ -203,7 +203,7 @@
       "value": ""
     }, {
       "id": "e9b4b0e7-a44f-4919-ac61-da432b01bc82",
-      "comment": "",
+      "comment": "INPUT PREFERRED ADDRESS",
       "command": "click",
       "target": "css=body",
       "targets": [
@@ -213,7 +213,7 @@
       "value": ""
     }, {
       "id": "f3e11c9d-ccf2-410e-ac8b-31241b0975f5",
-      "comment": "",
+      "comment": "SAVE ADDRESS",
       "command": "click",
       "target": "css=.button_success__sLUz_ > .button_button__cpnXl",
       "targets": [
@@ -224,14 +224,14 @@
       "value": ""
     }, {
       "id": "29e800b3-7998-4f58-8447-8c0405671d72",
-      "comment": "",
+      "comment": "REDIRECT TO DELIVERY OPTIONS",
       "command": "runScript",
       "target": "window.scrollTo(0,0)",
       "targets": [],
       "value": ""
     }, {
       "id": "dd407ca6-66fc-4b1c-aaf7-e5916ae6abf5",
-      "comment": "",
+      "comment": "SELECT DELIVER TO ME",
       "command": "click",
       "target": "css=.deliveryOptionCard_active__Vhe_4 .button_button__cpnXl",
       "targets": [
@@ -244,28 +244,28 @@
       "value": ""
     }, {
       "id": "323aa012-3e04-447e-bc06-0108a4c82332",
-      "comment": "",
+      "comment": "WAIT FOR IT TO LOAD",
       "command": "pause",
       "target": "3000",
       "targets": [],
       "value": ""
     }, {
       "id": "d84ce616-04ca-48a2-834e-b1486461e09c",
-      "comment": "",
+      "comment": "SELECT THE SAVED ADDRESS",
       "command": "executeScript",
       "target": "document.getElementById(\"selectDeliveryAddress\")",
       "targets": [],
       "value": ""
     }, {
       "id": "90fb8cda-f149-4d2e-9ff8-8d44088c81d4",
-      "comment": "",
+      "comment": "CONFIRM CORRECT ADDRESS SELECTED",
       "command": "executeScript",
       "target": "document.getElementById(\"Use this Address\")",
       "targets": [],
       "value": ""
     }, {
       "id": "384b4e04-aff8-4107-bdee-fa0c3593347f",
-      "comment": "",
+      "comment": "NAVIGATE TO PAYMENT OPTIONS",
       "command": "click",
       "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
       "targets": [
@@ -277,7 +277,7 @@
       "value": ""
     }, {
       "id": "56f65083-a684-4c78-bd34-1772025a749d",
-      "comment": "",
+      "comment": "SELECT PAY NOW",
       "command": "mouseOver",
       "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
       "targets": [
@@ -289,7 +289,7 @@
       "value": ""
     }, {
       "id": "5b996bb9-41b5-4c21-9dfe-4de86349c5a8",
-      "comment": "",
+      "comment": "CONFIRM OPTION SELECTED",
       "command": "mouseOut",
       "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
       "targets": [
@@ -301,14 +301,14 @@
       "value": ""
     }, {
       "id": "29d0ac69-3313-4245-8827-e87847686a68",
-      "comment": "",
+      "comment": "SCROLL DOWN",
       "command": "runScript",
       "target": "window.scrollTo(0,0)",
       "targets": [],
       "value": ""
     }, {
       "id": "aae868fe-9375-4a06-b3a2-3d9a7fe584b7",
-      "comment": "",
+      "comment": "CLICK CONTINUE TO PAYMENT",
       "command": "click",
       "target": "name=placeOrder",
       "targets": [
@@ -322,7 +322,7 @@
       "value": ""
     }, {
       "id": "5f9549a3-7734-474a-8e77-a2f8e3028da9",
-      "comment": "",
+      "comment": "IFRAME POP OUT",
       "command": "selectFrame",
       "target": "index=8",
       "targets": [
@@ -331,14 +331,14 @@
       "value": ""
     }, {
       "id": "c605e0e8-2cc8-4283-9234-0f4a401d7fa8",
-      "comment": "",
+      "comment": "SELECT PAYMENT METHOD OPTIONS",
       "command": "verifyElementPresent",
       "target": "css=.Card .payment-option-name",
       "targets": [],
       "value": ""
     }, {
       "id": "c94a3556-865a-44e9-91f7-169ee955005d",
-      "comment": "",
+      "comment": "SELECT CARD",
       "command": "click",
       "target": "css=.Card .payment-option-name",
       "targets": [
@@ -350,7 +350,7 @@
       "value": ""
     }, {
       "id": "4041c5e3-b171-4e79-b09a-40f7b8846eb8",
-      "comment": "",
+      "comment": "INPUT INVALID CARD DETAILS",
       "command": "click",
       "target": "id=card-number",
       "targets": [
@@ -363,7 +363,7 @@
       "value": ""
     }, {
       "id": "3a1a7c63-e4f8-45f1-aa77-b71584a0589b",
-      "comment": "",
+      "comment": "TYPE DEBIT CARD NUMBER",
       "command": "type",
       "target": "id=card-number",
       "targets": [
@@ -376,7 +376,7 @@
       "value": "1234 6789 0000 0"
     }, {
       "id": "3788add5-2957-44ca-b3c5-e26d02f16d55",
-      "comment": "",
+      "comment": "TYPE CARD EXPIRY DETAILS",
       "command": "click",
       "target": "id=expiry",
       "targets": [
@@ -389,7 +389,7 @@
       "value": ""
     }, {
       "id": "fda3f978-eada-489a-a1de-0ace0d7d647c",
-      "comment": "",
+      "comment": "CONFIRMING CARD VALIDITY",
       "command": "click",
       "target": "id=card-number_unhappy",
       "targets": [
@@ -403,7 +403,7 @@
       "value": ""
     }, {
       "id": "cbbdda0d-1399-4283-989b-82bc97c39227",
-      "comment": "",
+      "comment": "CONFIRM INVALID CARD NUMBER",
       "command": "verifyText",
       "target": "css=#card-exists--false > .data-card__content",
       "targets": [
@@ -414,7 +414,7 @@
       "value": "Card Number\\nInvalid card number\\nDate\\nCVV\\nCard Pin\\n100% Safe and Secure"
     }, {
       "id": "4b4cbabc-71b8-4460-9b5f-d51d067396c7",
-      "comment": "",
+      "comment": "CLOSE Iframe",
       "command": "click",
       "target": "css=.data-card__close",
       "targets": [
@@ -426,7 +426,7 @@
       "value": ""
     }, {
       "id": "f9642967-24d9-444a-8d45-d297be9a6cd7",
-      "comment": "",
+      "comment": "END RECORDING",
       "command": "close",
       "target": "",
       "targets": [],
